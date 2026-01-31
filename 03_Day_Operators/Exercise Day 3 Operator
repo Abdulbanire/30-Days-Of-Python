@@ -39,5 +39,17 @@ print('The area of a circle:', circle_area)
 print('The circumference of a circle:', circle_circum)
 
 # Calculate the slope, x-intercept and y-intercept of y = 2x -2
+slope = 2
+y - incercept = -2 
+# Calculate x-intercept (set y = 0 and solve for x)
+# 0 = 2x - 2
+# 2x = 2
+# x = 1
+x_intercept = -y_intercept / slope
+
+# Display results
+print("Slope:", slope)
+print("X-intercept:", x_intercept)
+print("Y-intercept:", y_intercept)
 
 
