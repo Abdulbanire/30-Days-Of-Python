@@ -140,3 +140,15 @@ Your_weekly_earning = float(hours) * float(rate_per_hour)
 print(Your_weekly_earning)
 
 # Write a script that prompts the user to enter number of years. Calculate the number of seconds a person can live. Assume a person can live hundred years
+years = int(input('Enter number of years you have lived: '))
+
+# Calculate seconds
+# 1 year = 365 days
+# 1 day = 24 hours
+# 1 hour = 60 minutes
+# 1 minute = 60 seconds
+
+seconds_per_year = 365 * 24 * 60 * 60
+total_seconds = years * seconds_per_year
+
+print(f"You have lived for {total_seconds} seconds.")
