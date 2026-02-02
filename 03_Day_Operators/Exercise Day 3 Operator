@@ -38,9 +38,12 @@ circle_circum = 2 * 3.14 * radius
 print('The area of a circle:', circle_area)
 print('The circumference of a circle:', circle_circum)
 
-# Calculate the slope, x-intercept and y-intercept of y = 2x -2
+# Calculate the slope, x-intercept and y-intercept of y = 2x - 2
+
+# From the equation y = 2x - 2
 slope = 2
-y - incercept = -2 
+y_intercept = -2
+
 # Calculate x-intercept (set y = 0 and solve for x)
 # 0 = 2x - 2
 # 2x = 2
@@ -52,4 +55,88 @@ print("Slope:", slope)
 print("X-intercept:", x_intercept)
 print("Y-intercept:", y_intercept)
 
+# Slope is (m = y2-y1/x2-x1). Find the slope and Euclidean distance between point (2, 2) and point (6,10)
 
+# Calculate the slope
+Slope = (10 - 2) / (6 - 2)
+
+# Calcuate the Euclidean distance
+import math
+Eulidean_distance = math.sqrt((2 - 2) **2 + (10 - 6) **2)
+
+# Show results
+print(Slope)
+print(Eulidean_distance)
+
+# Compare the slopes in tasks 8 and 9.
+print("Are they equal?", slope == Slope)
+
+# Calculate the value of y (y = x^2 + 6x + 9). Try to use different x values and figure out at what x value y is going to be 0
+
+x_values = [-10, -5, -4, -3, -2, -1, 0, 1, 2, 5, 10]
+
+for x in x_values:
+    y = x^2 + 6*x + 9
+
+print("Testing different x values:")
+x_values = [-10, -5, -4, -3, -2, -1, 0, 1, 2, 5]
+
+for x in x_values:
+    y = x**2 + 6*x + 9
+    print(f"x = {x}, y = {y}")
+
+# Find the length of 'python' and 'dragon' and make a falsy comparison statement
+python_length = len('python')
+dragon_length = len('dragon')
+
+print(python_length)
+print(dragon_length)
+
+# falsy comparsion statement
+falsy_comparison = python_length != dragon_length 
+
+print('Are the lengths different?', falsy_comparison)
+
+# Use and operator to check if 'on' is found in both 'python' and 'dragon'
+print('on in python:', 'on' in 'python')
+print('on in dragon:', 'on' in 'dragon')
+
+# There is no 'on' in both dragon and python
+print('on not in python:', 'on' not in 'python')
+print('on not in dragon:', 'on' not in 'dragon')
+
+# Find the length of the text python and convert the value to float and convert it to string
+print(python_length)
+print(dragon_length)
+
+# Converting text to a float
+print(float(python_length))
+print(float(dragon_length))
+
+# Converting float to a string
+print(str(python_length))
+print(str(dragon_length))
+
+# Even numbers are divisible by 2 and the remainder is zero. How do you check if a number is even or not using python?
+num = 8
+if num % 2 == 0:
+    print('even')
+else:
+    print('odd')
+
+# Check if the floor division of 7 by 3 is equal to the int converted value of 2.7.
+print(7 // 3 == int(2.7))
+
+# Check if type of '10' is equal to type of 10
+print(type('10') == type(10))
+
+# Check if int('9.8') is equal to 10
+print(int(float('9.8')) == 10)
+
+# Write a script that prompts the user to enter hours and rate per hour. Calculate pay of the person?
+hours = input('Enter hours: ')
+rate_per_hour = input('Enter rate per hour: ')
+Your_weekly_earning = float(hours) * float(rate_per_hour)
+print(Your_weekly_earning)
+
+# Write a script that prompts the user to enter number of years. Calculate the number of seconds a person can live. Assume a person can live hundred years
