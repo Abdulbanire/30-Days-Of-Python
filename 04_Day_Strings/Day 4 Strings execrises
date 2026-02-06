@@ -32,4 +32,6 @@ print(Join_string[0:6])
 # Check if Coding For All string contains a word Coding using the method index, find or other methods.
 print(Join_string.index('Coding'))
 
-#
+# Replace the word coding in the string 'Coding For All' to Python.
+print(Join_strings.replace())
+
