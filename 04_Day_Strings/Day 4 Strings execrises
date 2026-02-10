@@ -33,5 +33,19 @@ print(Join_string[0:6])
 print(Join_string.index('Coding'))
 
 # Replace the word coding in the string 'Coding For All' to Python.
-print(Join_strings.replace())
+print(Join_string.replace('Coding', 'Python'))
+
+# Split the string 'Coding For All' using space as the separator (split()) 
+print(Join_string.split())
+
+# "Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon" split the string at the comma.
+companies = 'Facebook, Google, Apple, IBM, Oracle, Amazon' 
+print(companies.split(','))
+
+# What is the character at index 0 in the string Coding For All.
+print(Join_string[0])
+
+# What is the last index of the string Coding For All.
+print(Join_string.index('All'))
+
 
